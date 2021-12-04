@@ -57,6 +57,7 @@ AB -> 28
 **----> code:**
 
 int Solution::titleToNumber(string A) {
+
     int a=0;
     for(int i=0;i<A.length();i++){
         a=a*26;
